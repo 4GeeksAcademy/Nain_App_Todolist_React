@@ -10,3 +10,40 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    padding: 5rem;
+       background-color:hsl(221, 26%, 12%);
+    
+       
+    }
+
+    input{
+        width: 19rem;
+        height: 3rem;
+        background-color:hsl(227, 19%, 72%);
+        outline: none;
+        border-radius: 0.8rem;
+        border: 2px solid ;
+        box-shadow: 0 0 5px  hsl(0, 0%, 0%) ;
+    }
+    ::placeholder { color:hsl(223, 16%, 43%) !important; }
+    
+    .ToDoList {
+      
+ 
+    overflow-y:scroll ;
+    }
+   
+    .ToDoList::-webkit-scrollbar {
+        width: var(--scroll-size, 10px);
+        height: var(--scroll-size, 10px);
+      }
+    .ToDoList::-webkit-scrollbar-track {
+        background-color: var(--scroll-track, transparent);
+        border-radius: var(--scroll-track-radius, var(--scroll-radius));
+      }
+      .ToDoList::-webkit-scrollbar-thumb {
+        background-color: var(--scroll-thumb-color, grey);
+        background-image: var(--scroll-thumb, none);
+        border-radius: var(--scroll-thumb-radius, var(--scroll-radius));
+      }
