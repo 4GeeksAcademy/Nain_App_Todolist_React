@@ -1,20 +1,7 @@
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
 body{
     padding: 5rem;
-       background-color:hsl(221, 26%, 12%);
-    
-       
+       background-color:hsl(221, 26%, 12%); 
     }
 
     input{
@@ -29,8 +16,6 @@ body{
     ::placeholder { color:hsl(223, 16%, 43%) !important; }
     
     .ToDoList {
-      
- 
     overflow-y:scroll ;
     }
    
